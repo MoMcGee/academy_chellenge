@@ -1,0 +1,282 @@
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	line-height: 21px;
+	color: #000000;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+}
+
+
+header {
+	padding-top: 60px;
+	padding-bottom: 45px;
+}
+
+.main_menu ul {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.page_title {
+	font-family: 'Playfair Display', serif;
+	font-size: 35px;
+	line-height: 46.7px;
+	text-align: center;
+	margin-bottom: 46px;
+}
+
+.main_menu a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	line-height: 17.5px;
+	text-transform: uppercase;
+}
+
+.main_menu a:hover {
+	color: #ff7931;
+	font-weight: bold;
+}
+
+.main_menu a:active {
+	color: #000000;
+	font-weight: bold;
+}
+
+.main_article_preview {
+	padding-top: 45px;
+	padding-bottom: 50px;
+	background-image: url("../img/Hotel-11.jpg");
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+
+.main_article_preview .container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.logo_img {
+	margin-bottom: 32px;
+}
+
+.article_title {
+	margin-bottom: 139px;
+	font-size: 72px;
+	line-height: normal;
+	font-weight: normal;
+	color: #ffffff;
+	text-transform: uppercase;
+}
+
+.preview_text {
+	width: 456px;
+	font-size: 14px;
+	line-height: 21px;
+	font-weight: 400;
+	color: #ffffff;
+	text-align: center;
+}
+
+.section_title {
+	margin-top: 44px;
+	margin-bottom: 25px;
+	font-size: 17px;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+.review_items {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin-bottom: 50px;
+}
+
+.review_item {
+	display: block;
+	width: 380px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+.review_item:hover {
+	box-shadow: 1px 1px 3px #444444;
+}
+
+.review_item:hover .review_title {
+	color: #ff7931;
+	cursor: pointer;
+}
+
+.review_item img {
+	margin-bottom: 20px;
+}
+
+.review_title {
+	margin-bottom: 11px;
+	font-size: 23px;
+	font-family: 'Playfair Display', serif;
+}
+
+.review_item p {
+	margin-bottom: 15px;
+}
+
+.season_tickets {
+	background: #f7f7f7;
+
+}
+
+.season_tickets .container {
+	padding-top: 23px;
+    padding-bottom: 26px;
+    background-image: url("../img/ellipse.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 707px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.season_tickets .section_title {
+	margin-bottom: 35px;
+}
+
+.section_h_line {
+	width: 100px;
+	margin-top: 29px;
+	margin-bottom: 26px;
+	border: 1px solid #000000;
+	opacity: 0.2;
+} 
+
+.ticket_items {
+	display: flex;
+	-webkit-flex-direction: column;
+	-moz-flex-direction: column;
+	-ms-flex-direction: column;
+	-o-flex-direction: column;
+	flex-direction: column;
+	align-items: center;
+	width: 368px;
+	}
+
+.ticket_title {
+	margin-bottom: 10px;
+	font-size: 23px;
+	font-family: 'Playfair Display', serif;
+	text-align: center;
+}
+
+.ticket_text {
+	/*margin-bottom: 26px;*/
+	text-align: center;
+}
+
+.ticket_item:last-child {
+	margin-bottom: 26px;
+}
+
+.ticket_offer_btn {
+	margin-top: 26px;
+	margin-bottom: 36px;
+	padding: 15px 60px 15px 30px;
+	font-weight: bold;
+	color: #ffffff;
+	text-transform: uppercase;
+	background-color: #ff7931;
+	background-image: url('../img/Arrow forward.svg');
+	background-repeat: no-repeat;
+	background-position: 80% 50%;
+}
+
+
+.ticket_offer_btn:hover {
+	background-color: #ff6a18;
+	box-shadow: 1px 1px 3px #444444;
+}
+
+.ticket_offer_btn:active {
+	opacity: 0.7;
+}
+
+
+footer {
+	padding-top: 26px;
+	padding-bottom: 46px;
+	background-color: #575757;
+	color: #ffffff;
+}
+
+footer .page_title {
+	margin-bottom: 32px;
+}
+
+footer .main_menu {
+	margin-bottom: 46px;
+}
+
+footer .main_menu a {
+	color: #ffffff;
+}
+
+.h_line {
+	width: 1170px;
+	border: 1px solid #ffffff;
+	opacity: 0.4;
+}
+
+.social_buttons {
+	display: flex;
+	justify-content: center;
+	margin-top: 42px;
+}
+
+.social_buttons a {
+	display: block;
+	margin-right: 14px;
+	width: 47px;	
+	height: 47px;
+}
+
+.social_buttons a:hover {
+	background-color: #ff7931;
+}
+
+.social_buttons .btn_insta {
+	background: #ffffff url('../img/insta.svg') no-repeat 50% 50%;
+}
+
+.social_buttons .btn_fb{
+	background: #ffffff url('../img/facebook_icon.svg') no-repeat 50% 50%;
+}
+
+.social_buttons .btn_tw{
+	background: #ffffff url('../img/twitter_icon.svg') no-repeat 50% 50%;
+}
